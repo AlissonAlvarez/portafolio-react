@@ -1,1 +1,12 @@
-import styles from '../Header/Header.module.css'
+import SymbolRain from './HeaderStyledComponents'
+
+function Header() {
+    return (
+        <>          
+            <SymbolRain img='⎔' />
+            <SymbolRain img='▪' />
+        </>
+    );
+}
+
+export default Header;

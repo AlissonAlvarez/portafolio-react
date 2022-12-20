@@ -1,8 +1,8 @@
-function App() {
+import RoutesApp from './routes/Routes'
 
+function App() {
   return (
-    <div>
-    </div>
+    <RoutesApp />
   )
 }
 
