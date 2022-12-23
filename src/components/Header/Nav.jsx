@@ -49,15 +49,8 @@ const MenuButton = styled.li`
 `
 const MenuItem = styled(motion.li)`
   text-transform: uppercase;
-  color: ${props => props.theme.body};  
-  motion.li:
-  animate = {{ 
-    y: 100 
-  }} 
-  />
-
+  color: ${props => props.theme.body};
   `
- 
 
     function Nav() {
       const [click, setClick] = useState(false);
