@@ -9,14 +9,14 @@ const Main = styled.div`
 const Container = styled.div`
     @keyframes rain {
       0% { margin-top: 0; }
-      100% { margin-top: 600px; }
+      100% { margin-top: 700px; }
     }    
     position: absolute;
     top: 10px;
     left: ${props => props.offset}px;    
     font-size: 50px;
     font-weight: lighter;
-    color: aqua;
+    color: ${props => props.theme.title};
     animation-name: rain;
     animation-duration: 5s;
   `;

@@ -1,9 +1,10 @@
 export const one = {
     body: '#010737',
+    title: '#00FFFF',
     text: '#fff',
     bodyRgba: '32, 32, 32',
     textRgba: '255,255,255',
-    grey: '#bebebe',    
+    grey: '#bebebe',
     fontxs: '0.75em',
     fontsm: '0.875em',
     fontmd: '1em',

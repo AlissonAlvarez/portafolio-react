@@ -49,7 +49,7 @@ const MenuButton = styled.li`
 `
 const MenuItem = styled(motion.li)`
   text-transform: uppercase;
-  color: ${props => props.theme.body};
+ c
   `
 
     function Nav() {
