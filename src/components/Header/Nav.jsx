@@ -49,8 +49,7 @@ const MenuButton = styled.li`
 `
 const MenuItem = styled(motion.li)`
   text-transform: uppercase;
- c
-  `
+`
 
     function Nav() {
       const [click, setClick] = useState(false);
