@@ -8,6 +8,8 @@ import { one } from "../../styles/ThemeStyles.jsx";
 import About from "../../pages/About.jsx";
 import Home from "../../pages/Home"
 import Projects from "../../pages/Projects.jsx";
+import Services from "../../pages/Services.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 function HomeLayout() {
     const containerRef = useRef(null)
@@ -35,10 +37,12 @@ function HomeLayout() {
                     <main data-scroll-container ref={containerRef}>
                         <Home />
                         <About />
-                        <Projects/>
+                        <Projects />
+                        <Services />
+                        <Footer />
                     </main>
                 </LocomotiveScrollProvider>
-                
+
             </ThemeProvider>
         </React.Fragment >
     )

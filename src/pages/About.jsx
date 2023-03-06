@@ -4,7 +4,7 @@ import img1 from '../assets/images/about.jpg'
 
 const Section = styled.section`
   position: relative; 
-  min-height: 100vh;
+  min-height: 70vh;
   width: 80vw;
   overflow: hidden;
   display: flex;
@@ -12,7 +12,7 @@ const Section = styled.section`
 `
 
 const Title = styled.h1`
-  font-size: ${props => props.theme.fontBig};
+  font-size: ${props => props.theme.fontxl};
   font-family:'Montserrat';
   font-weight: 300;
   position: absolute;
@@ -24,13 +24,14 @@ const Title = styled.h1`
 
 const Left = styled.div`  
   width: 50%;
-  font-size: ${props => props.theme.fontlg};
+  font-size: ${props => props.theme.fontss};
   font-weight: 300;
-  color: ${props => props.theme.text};
+  color: ${props => props.theme.textPrimary};
   position: relative;
   z-index: 5;
   margin-top: 20%;
 `
+
 const Right = styled.div`
   width: 50%;
 `

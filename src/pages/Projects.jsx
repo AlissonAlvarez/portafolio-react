@@ -12,19 +12,19 @@ const Section = styled.section`
   overflow: hidden;
   position: relative;
 `
+
 const Title = styled.h1`
-  font-size: ${props => props.theme.fontxxxl};
-  font-family:'Montserrat';
+  font-size: ${props => props.theme.fontxl};
   font-weight: 300;
   position: absolute;
   top: 1rem;
-  left: 5%;
+  left: 1%;
   z-index: 10;
-  color: ${props => props.theme.text};
+  color: ${props => props.theme.textPrimary};
 `
 
 const Left = styled.div`
-  width: 35%;
+  width: 40%;
   background-color: ${props => props.theme.title};
   color: ${props => props.theme.body};
   min-height: 100vh;
@@ -36,7 +36,7 @@ const Left = styled.div`
   align-items: center;
 
   p{
-    font-size: ${props => props.theme.fontlg};
+    font-size: ${props => props.theme.fontss};
     font-weight: 300;
     width: 80%;
     margin: 0 auto;
@@ -48,18 +48,17 @@ const Right = styled.div`
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  left: 35%;
+  left: 40%;
   padding-left: 30%;
   min-height: 100vh;
-  background-color: ${props => props.theme.text};
-  width: 65%;
+  background-color: ${props => props.theme.textPrimary};
+  width: 60%;
 
   h1{
     width: 5rem;
     margin: 0 2rem;
   }
 `
-
 
 const Projects = () => {
   return (
@@ -79,7 +78,6 @@ const Projects = () => {
         <h1>img</h1>
         <h1>img</h1>
         <h1>img</h1>
-
       </Right>
     </Section>
   )

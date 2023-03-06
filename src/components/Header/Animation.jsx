@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Main = styled.div`
     width: 100%;
-  `;
+`;
 
 const Container = styled.div`
     @keyframes rain {
@@ -19,7 +19,7 @@ const Container = styled.div`
     color: ${props => props.theme.title};
     animation-name: rain;
     animation-duration: 5s;
-  `;
+`;
 
 function SymbolRain(props) {
     const [symbolsToRender, setsymbolsToRender] = useState([{ offset: 0, key: 0, symbol: '' }]);
@@ -27,7 +27,7 @@ function SymbolRain(props) {
         if (symbolsToRender.length > 20) {
             symbolsToRender.shift();
         }
-        const offset = Math.floor(Math.random() * 1300);
+        const offset = Math.floor(Math.random() * 2000);
         const key = offset + Math.random() * 100;
         const symbol = props.img;
         symbolsToRender.push({ offset, key, symbol });

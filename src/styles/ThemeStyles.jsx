@@ -1,17 +1,16 @@
 export const one = {
     body: '#010737',
     title: '#00FFFF',
-    text: '#fff',
-    bodyRgba: '32, 32, 32',
+    textPrimary: '#FFFFFF',
+    textSecondary: '#000000',
     textRgba: '255,255,255',
-    grey: '#bebebe',
-    fontxs: '0.75em',
-    fontsm: '0.875em',
-    fontmd: '1em',
-    fontlg: '1.25em',
-    fontxl: '2em',
-    fontxxl: '3em',
-    fontxxxl: '5em',
-    fontBig: '10em',
-    navHeight: '5rem'
+    fontxx: '0.5rem',
+    fontxs: '1rem',
+    fontss: '1.5rem',
+    fontsm: '2rem',
+    fontmm: '2.5rem',
+    fontml: '3rem',
+    fontll: '3.5rem',
+    fontlg: '5rem',
+    fontxl: '8rem'
 }
