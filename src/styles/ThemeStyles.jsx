@@ -11,6 +11,6 @@ export const one = {
     fontmm: '2.5rem',
     fontml: '3rem',
     fontll: '3.5rem',
-    fontlg: '5rem',
-    fontxl: '8rem'
+    fontlg: '4rem',
+    fontxl: '5rem'
 }

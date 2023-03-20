@@ -1,12 +1,16 @@
 import React, { useRef } from "react";
 import { Outlet } from "react-router-dom";
+
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import 'locomotive-scroll/dist/locomotive-scroll.css'
-import GlobalStyles from '../../styles/GlobalStyles.jsx';
+import ScrollTriggerProjects from "../../components/Section/ScrollTriggerProjects.js";
+
 import { ThemeProvider } from "styled-components";
 import { one } from "../../styles/ThemeStyles.jsx";
-import About from "../../pages/About.jsx";
+import GlobalStyles from '../../styles/GlobalStyles.jsx';
+
 import Home from "../../pages/Home"
+import About from "../../pages/About.jsx";
 import Projects from "../../pages/Projects.jsx";
 import Services from "../../pages/Services.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -34,7 +38,8 @@ function HomeLayout() {
                     }
                     containerRef={containerRef}
                 >
-                    <main data-scroll-container ref={containerRef}>
+                    <main className="App" data-scroll-container ref={containerRef}>
+                        <ScrollTriggerProjects />
                         <Home />
                         <About />
                         <Projects />

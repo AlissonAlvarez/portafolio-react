@@ -11,9 +11,9 @@ const Container = styled.div`
       0% { margin-top: 0; }
       100% { margin-top: 700px; }
     }    
-    position: absolute;
     top: 10px;
     left: ${props => props.offset}px;    
+    position: absolute;
     font-size: 50px;
     font-weight: lighter;
     color: ${props => props.theme.title};

@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Section = styled.section`
-  min-height: 100vh;
   width: 80vw;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -12,12 +12,12 @@ const Section = styled.section`
 `
 
 const Title = styled.h1`
-  font-size: ${props => props.theme.fontxl};
-  font-weight: 300;
-  position: absolute;
-  top: 1rem;
   left: 1%;
+  top: 1rem;
   z-index: 10;
+  position: absolute;
+  font-size: ${props => props.theme.fontxl};
+  font-weight: 300;  
   color: ${props => props.theme.textPrimary};
 `
 
@@ -45,7 +45,7 @@ const Skill = styled.h1`
 const Services = () => {
   return (
     <Section>
-      <Title data-scroll data-scroll-speed='-2' data-scroll-direction='horizontal'>Skills</Title>
+      <Title data-scroll data-scroll-speed='-2' data-scroll-direction='horizontal'>Habilidades</Title>
        <Container id="direction">
         <Skill>
           <span
