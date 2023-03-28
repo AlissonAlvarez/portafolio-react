@@ -2,10 +2,6 @@ import { createGlobalStyle } from "styled-components";
 import "@fontsource/montserrat";
 
 const GlobalStyles = createGlobalStyle`
-*,*::before,*::after{
-    margin: 0;
-    padding: 0;
-}
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +10,13 @@ const GlobalStyles = createGlobalStyle`
   list-style: none;
   text-decoration: none;
   outline: none;  
+  font-family: 'Montserrat'; 
 }
 
 html, body {
   width:100%;
   background-color: #010737;
-  font-family: 'Montserrat'; overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a{

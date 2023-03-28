@@ -13,6 +13,7 @@ import Home from "../../pages/Home"
 import About from "../../pages/About.jsx";
 import Projects from "../../pages/Projects.jsx";
 import Services from "../../pages/Services.jsx";
+import Contact from "../../pages/Contact.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 
 function HomeLayout() {
@@ -44,6 +45,7 @@ function HomeLayout() {
                         <About />
                         <Projects />
                         <Services />
+                        <Contact />
                         <Footer />
                     </main>
                 </LocomotiveScrollProvider>

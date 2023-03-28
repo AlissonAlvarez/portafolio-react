@@ -130,7 +130,7 @@ const Project = ({
       <Button>
         <button className="buttonCode"><Link to={buttonCode} target="_blank">Repositorio</Link></button>
         <button className="buttonDemo"><Link to={buttonDemo} target="_blank">Despliegue</Link></button>
-      </Button> 
+      </Button>
     </Card>
   );
 };
@@ -188,9 +188,7 @@ const Projects = () => {
       <Title data-scroll data-scroll-speed='-1' data-scroll-direction='horizontal'>Proyectos</Title>
 
       <Left>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iusto itaque sint repellendus tenetur vel, maiores, atque modi officia hic libero similique ad nam iste porro animi quas fugit repudiandae.
-        </p>
+        <p></p>
       </Left>
 
       <Right data-scroll ref={Horizontalref}>

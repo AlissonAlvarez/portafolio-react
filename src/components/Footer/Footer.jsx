@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedin} from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Section = styled.section`
     display: flex;
@@ -13,19 +13,20 @@ const Section = styled.section`
 const Logos = styled.div`
     margin: ${props => props.theme.fontxs};
     font-size:${props => props.theme.fontll};
-    color:${props => props.theme.title};    
+    color:${props => props.theme.title}; 
+    cursor:pointer;   
 `
 function Footer() {
     return (
         <Section>
             <Logos>
-                <FaGithub  />
+                <FaLinkedin  />
             </Logos>
             <Logos>
-                <FaLinkedinIn />
+                <FaGithubSquare />
             </Logos>
             <Logos>
-                <AiFillInstagram />
+                <FaInstagramSquare />
             </Logos>
         </Section>
     )
